@@ -38,7 +38,7 @@ function GAME() {
     }
   }
 
-
+  console.log('object');
 
 
 
