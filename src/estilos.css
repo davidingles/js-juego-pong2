@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+.mesa {
+  position: relative;
+  background-color: #333;
+  height: 600px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.bola {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: calc(300px - 25px);
+  /* left: 10px; */
+}
+
+.barra {
+  position: absolute;
+  background-color: #0f0;
+  height: 100px;
+  width: 10px;
+}
+
+.barra1 {
+  top: 250px;
+  right: 0;
+}
+
+.barra2 {
+  top: 250px;
+  left: 0;
+}
+
+.linea {
+  position: absolute;
+  height: 600px;
+  width: 2px;
+  top: 0;
+  left: 50%;
+  border-right: dashed 2px orange;
+}
+
+.btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #9f3737;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  width: 33px;
+  height: 33px;
+}
+
+.acelera {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  background-color: #000dff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  width: 33px;
+  height: 33px;
+}
